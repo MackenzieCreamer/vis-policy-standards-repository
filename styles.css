@@ -1,3 +1,49 @@
-h1 {
-    color: red;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-container{
+    height: 70px;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.btn {
+    width: 60px;
+    height: 100%;
+    cursor:pointer;
+    margin-right: 5px;
+    align-content: center;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+#main-body {
+    height: calc(100vh - 140px);
+}
+
+#btn-container{
+    width: fit-content;
+    height: 60%;
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+
+#btn-container > .btn {
+    width: 100px;
+}
+
+#project-title {
+    flex: 1;
+}
+
+#citation-information-footer{
+    margin: 5px;
 }
